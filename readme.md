@@ -17,9 +17,9 @@ git clone https://github.com/CaioHLuwi/meteorological-research.git
 
 ## Used API's
 ### Geocoding API
-For city latitude, longitude and city details:
+For city latitude, longitude and city details: <br>
 https://openweathermap.org/api/geocoding-api
 
 ### Weather Forecast API
-For Weather (Temperature and Wind specs)
+For Weather (Temperature and Wind specs): <br>
 https://open-meteo.com/en/docs#latitude=52.52&longitude=13.41&current=temperature_2m,wind_speed_10m,wind_direction_10m&hourly=temperature_2m&timezone=auto&forecast_days=1
