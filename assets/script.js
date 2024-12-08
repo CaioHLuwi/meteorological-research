@@ -1,13 +1,14 @@
 let inputField = document.querySelector('#searchInput');
 
 function searchWeather(event) {
+    let warningMessage = document.querySelector('#warningMessage');
     event.preventDefault();
 
     if(inputField.value != ''){
-        showLoading('Carregando...')
+        showLoading('Loading...')
         getLocInfo();
     } else {
-        console.log('Preencha o campo de localização');
+       warningMessage.style.display = "block";
     }
 
     inputField.value = '';
