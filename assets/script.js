@@ -24,8 +24,6 @@ async function getLocInfo() {
     let lat = json[0].lat;
     let lon = json[0].lon;
 
-    console.log(json);
-
     let locName = json[0].name;
     let locState = json[0].state;
     let locCountry = json[0].country;
@@ -40,8 +38,6 @@ async function getWeather(lat, lon, name, state, country){
 
     let req = await fetch(URL);
     let json = await req.json();
-
-    console.log(json);
 
     let temperature = json.current.temperature_2m;
     let windSpeed = json.current.wind_speed_10m;
